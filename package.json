@@ -1,0 +1,16 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar pergunjtas anoninmas de usuarios direcionadas ao dono da pagina. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"    
+  },
+  "keywords": [],
+  "author": "Tiago de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
