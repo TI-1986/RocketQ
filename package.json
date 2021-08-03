@@ -2,9 +2,9 @@
   "name": "RocketQ",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar pergunjtas anoninmas de usuarios direcionadas ao dono da pagina. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"    
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "Tiago de Oliveira",
@@ -12,5 +12,8 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
